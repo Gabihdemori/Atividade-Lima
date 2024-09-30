@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Login</title>
+    <link rel="stylesheet" href="jogos.css">
+</head>
+<body>
+    <div class="login-container">
+        <h2>Cadastre os Jogadores</h2>
+        <form id="loginForm">
+            <div class="form-group">
+                <label for="password">id:</label>
+                <input type="number" id="id" name="password" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Modalidade:</label>
+                <input type="text" id="jogador" name="password" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Data do Jogo:</label>
+                <input type="date" id="data_jogo" name="password" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Placar:</label>
+                <input type="text" id="placar" name="password" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Cartão Vermelho:</label>
+                <input type="text" id="vermelho" name="password" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Cartão Amarelo:</label>
+                <input type="text" id="amarelo" name="password" required>
+            </div>
+            <div class="form-group">
+                <label for="resultado">Substituição:</label>
+                <select id="resultado" name="resultado" required>
+                    <option value="">Substituição:</option>
+                    <option value="sim">Sim</option>
+                    <option value="nao">Não</option>
+                </select>
+            </div>
+            <button type="submit">Entrar</button>
+            <p id="error-message"></p>
+        </form>
+    </div>
+    <div class="menu-options">
+        <a href="home.html" class="menu-item">
+        </a>
+    </div>
+</body>
+</html>
